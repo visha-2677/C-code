@@ -1,0 +1,24 @@
+******************** vritual class ******************
+                          *
+                          |
+                          |
+                    class A(grand father)
+                          |
+      -----------------------------------------
+      |                                       |
+      |                                       |
+      *                                       *
+ class B(father of B)                       class C(father of c)
+      |                                       |
+      |                                       |
+      -----------------------------------------
+                           |
+                           |
+                           *
+                        class D(son of D)
+
+
+syntex of B:                        |   syntex of C:
+class B: vritual public A{          |   class C:vritual public C{
+                                    |   
+};                                  |   };
