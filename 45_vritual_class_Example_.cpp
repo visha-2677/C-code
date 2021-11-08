@@ -24,6 +24,7 @@ class student
             cout<<"Your roll number is "<<roll_no<<endl;
         }
 };
+
 class Test : virtual public student
 {
     protected:
