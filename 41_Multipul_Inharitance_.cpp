@@ -37,7 +37,7 @@ The inherited Derived class will look somthing like this:
 Data member:
     1.base1int --> protected               A(Base1)       B(Base2)
     2.base2int --> protected                  |              |
-member Function:                              |              |
+member Function: 
     1.set_data1int(); --> public              *              *
     2.set_data2int(); --> public              ----------------
     3.show(); --> public                              |

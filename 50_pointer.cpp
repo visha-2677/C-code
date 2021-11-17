@@ -5,7 +5,7 @@ int main()
 {
     int a=20;
     int *b=&a;
-    *b=435;
+    *b=435; 
     cout<<" The valu of a is "<<*b<<endl;
     //new oprator
     int *c= new int (39);
